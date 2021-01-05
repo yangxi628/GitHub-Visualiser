@@ -22,7 +22,7 @@ The polar area chart is showing how much user have used for each language.
 
 the line chart is showing the commit times of 7 days of the week. So they know which day they are busy.
 
-![line](third.png)
+![line](thrid.png)
 
 this was run on my personal machine which is i7-7700HQ 4 cores 2.80 GHz 8 Threads, the 5 seconds it takes to load the  graph.
 
