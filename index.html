@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xingchen Github Visualiser</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="UI.css">
+</head>
+<body>
+    <h1 style="text-align: center;color:rgb(238, 130, 8)">
+                                   User Data Visualiser
+    </h1>
+<div class="container-fluid">
+    <div class="row" style="background-color: rgb(102, 203, 243);">
+        <div class="mb-2 mt-2 col-md-10">
+                         Serach for user: <input id="user" type="text" />
+        </div>
+        <div class="mb-2 mt-2 col-md-10">
+            Token: <input id="token" type="text" placeholder="optional" />
+        </div>
+        <div class="mb-2 mt-2 col-md-10">
+            <button onclick="handleInput()">   Serach </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="mt-3 col-md-2">
+            <div >
+                <img class="mb-4 img-fluid" id="img" src=''>
+            </div>
+            <div >
+                <img class="mb-4 img-fluid" id="img" src=''>
+                
+                <p id="name"></p>
+                <p id="login"></p>
+                <p id="bio"></p>
+                <p id="hireable"></p>
+                <p id="created_at"></p>
+                <p id="followers"></p>
+                <p id="following"></p>
+                <p id="location"></p>
+                <p id="public_repos"></p>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <canvas id="language"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div >
+                        <canvas id="commits"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="mt-5 col-md-8">
+                    <div >
+                        <canvas id="insertion"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+<script src="APP.js" defer></script>
+</body>
+</html>
