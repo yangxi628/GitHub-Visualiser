@@ -1,0 +1,46 @@
+* {
+    font-family: arial;
+    color: rgb(255 255 255);
+} 
+  
+html {
+    font-size: 80%;
+}
+  
+body {
+    display: block;
+    background-color: #66baf3e0;
+    background-size: auto;
+} 
+  
+* {
+    font-size: 3.0rem;
+    color: black;
+    font-size: medium;
+}
+  
+input {
+    background: white;
+    color: rgb(7 2 18);
+    transition: all 200ms ease;
+    border-left: 0 solid transparent;
+    border: 0;
+    height: .8rem;
+    padding: 0 calc(4rem * 0.5);
+    border-radius: calc(4rem * 0.3);
+    box-shadow: 0 0 2rem rgb(0, 0, 0, 20%);
+}
+      
+input, button {
+    border: 1;
+    height: 3rem;
+    padding: 0 calc(5rem * 9);
+    border-radius: calc(4rem * 0.3);
+    box-shadow: 0 0 2rem rgba(255, 255, 255, 0.4);
+}
+
+button {
+    cursor: pointer;
+    background: rgb(125, 253, 183);
+    color: rgb(0, 0, 0);
+}  
